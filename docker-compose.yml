@@ -1,0 +1,6 @@
+services:
+  pythonfastip: 
+    build: .
+    container_name: pythonappjenkins
+    ports:
+      - "8000:8000"
