@@ -8,4 +8,4 @@ COPY . /myapp-py/
 
 EXPOSE 8000
 
-CMD [ "python", "myapp.py" ]
+CMD [ "python", "app.py" ]
